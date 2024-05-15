@@ -1,0 +1,26 @@
+// Базовый файл стилей
+body {
+	font-family: "Source Sans Pro Regular", sans-serif;
+	font-style: normal;
+	font-weight: 400;
+	font-size: 18px;
+	line-height: 1.4;
+	color: #353333;
+}
+
+.container {
+	width: 100%;
+	max-width: 1500px;
+	margin: 0 auto;
+}
+
+.visually-hidden {
+	position: absolute;
+	width: 1px;
+	height: 1px;
+	margin: -1px;
+	padding: 0;
+	overflow: hidden;
+	clip: rect(0, 0, 0, 0);
+	border: 0;
+}
